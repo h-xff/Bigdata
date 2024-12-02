@@ -1,5 +1,7 @@
 # Bigdata
 ## 环境
+系统：Centos7.9 最小化安装
+
 ## A
 ### Docker一键脚本安装
 ```bash
