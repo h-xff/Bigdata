@@ -1,7 +1,6 @@
 #!/bin/bash
 # xfcloud
 
-
 # 脚本需要root权限运行
 if [ "$(id -u)" -ne 0 ]; then
     echo "请使用 root 用户运行该脚本!"
@@ -15,7 +14,7 @@ check_status() {
         exit 1
     fi
 }
-
+echo "BigData-xfcloud-docker"
 # 一、安装依赖
 echo "安装依赖包..."
 yum install -y yum-utils device-mapper-persistent-data lvm2 wget perl
