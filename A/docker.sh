@@ -1,4 +1,6 @@
 #!/bin/bash
+# xfcloud
+
 
 # 脚本需要root权限运行
 if [ "$(id -u)" -ne 0 ]; then
